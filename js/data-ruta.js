@@ -1,16 +1,16 @@
 var ruta = [
    {
-      "ponint": 1,
+      "point": 1,
       "location": {
          "lat": 19.345842,
          "lng": -99.190678
       },
       "name": "Plaza del Carmen",
-      "info":"¡Bienvenid@ a San Ángel! Declarado Pueblo Típico Pintoresco en 1934 y reconocido, por decreto presidencial, como zona de monumentos históricos en 1987, el pueblo de San Ángel se levanta al sur de la ciudad. Tenanitla fue su nombre prehispánico y significaba “lugar amurallado”, pues estuvo protegido por el pedregal, barrera natural de roca volcánica producto de la erupción del volcán Xitle."
+      "info":"¡Bienvenid@ a San Ángel! Declarado Pueblo Típico Pintoresco en 1934 y reconocido, por decreto presidencial, como zona de monumentos históricos en 1987, el pueblo de San Ángel se levanta al sur de la ciudad. Tenanitla fue su nombre prehispánico y significaba “lugar amurallado”, pues estuvo protegido por el pedregal, barrera natural de roca volcánica producto de la erupción del volcán Xitle.",
       "vicinity": "Amargura, Alvaro Obregon, San Ángel TNT, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 2,
+      "point": 2,
       "location": {
          "lat": 19.345427,
          "lng": -99.190976
@@ -20,7 +20,7 @@ var ruta = [
       "vicinity": "Calle Plaza del Carmen 6, San Ángel TNT, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 3,
+      "point": 3,
       "location": {
          "lat": 19.345787,
          "lng": -99.191766
@@ -30,7 +30,7 @@ var ruta = [
       "vicinity": "Amargura 15, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 4,
+      "point": 4,
       "location": {
          "lat": 19.345247,
          "lng": -99.193134
@@ -40,7 +40,7 @@ var ruta = [
       "vicinity": "Calle Benito Juárez 1, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 5,
+      "point": 5,
       "place": {
          "location": {
             "lat": 19.344696,
@@ -52,7 +52,7 @@ var ruta = [
       "vicinity": "Plaza San Jacinto 18 Bis, Alvaro Obregón, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 6,
+      "point": 6,
       "location": {
          "lat": 19.344604,
          "lng": -99.195254
@@ -62,7 +62,7 @@ var ruta = [
       "vicinity": "Calle Benito Juárez 2A, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 7,
+      "point": 7,
       "location": {
          "lat": 19.344097,
          "lng": -99.197042
@@ -72,7 +72,7 @@ var ruta = [
       "vicinity": "01000, Hidalgo 43, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 8,
+      "point": 8,
       "location": {
          "lat": 19.343332,
          "lng": -99.194487
@@ -82,7 +82,7 @@ var ruta = [
       "vicinity": "2a Frontera 37, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 9,
+      "point": 9,
       "location": {
          "lat": 19.341863,
          "lng": -99.192487
@@ -92,7 +92,7 @@ var ruta = [
       "vicinity": "Jardín del Arte 5, San Ángel, 01000 Alvaro Obregon, CDMX"
       },
    {
-      "ponint": 10,
+      "point": 10,
       "location": {
          "lat": 19.344651,
          "lng": -99.192291
@@ -102,7 +102,7 @@ var ruta = [
       "vicinity": "San Ángel TNT, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-   "ponint": 11,
+   "point": 11,
       "location": {
          "lat": 19.344144, 
          "lng": -99.192582
@@ -112,7 +112,7 @@ var ruta = [
       "vicinity": "San Jacinto 16, Del. Álvaro Obregón, San Ángel, 01000 Ciudad de México, CDMX"
       },   
    {
-      "ponint": 12,
+      "point": 12,
       "location": {
          "lat": 19.344946,
          "lng": -99.191952
@@ -122,7 +122,7 @@ var ruta = [
       "vicinity": "Plaza San Jacinto 5, San Ángel TNT, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 13,
+      "point": 13,
       "location": {
          "lat": 19.345523,
          "lng": -99.190378
@@ -132,7 +132,7 @@ var ruta = [
       "vicinity": "Alvaro Obregón, Av. Revolución S/n, San Angel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 14,
+      "point": 14,
       "location": {
          "lat": 19.345704,
          "lng": -99.189633
@@ -142,7 +142,7 @@ var ruta = [
       "vicinity": "Av. Revolución sn, San Ángel, 01000 Ciudad de México, CDMX"
       },
    {
-      "ponint": 15,
+      "point": 15,
       "location": {
          "lat": 19.3519663,
          "lng": -99.1864813
