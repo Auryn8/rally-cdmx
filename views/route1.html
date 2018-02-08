@@ -25,16 +25,7 @@
                 <a href="#" data-activates="slide-out" class="button-collapse show-on-large">
                     <i class="material-icons">menu</i>
                 </a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse right">
-                    <ul>
-                        <li>
-                            <input id="last_name" type="text" class="validate" placeholder="search">
-                        </li>
-                        <li>
-                            <i class="small material-icons">search</i>
-                        </li>
-                    </ul>
-                </a>
+
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li>
                         <h6 id="name">nombre de usuario</h6>
@@ -51,57 +42,121 @@
 
     <!-- Parallax -->
 
-   
-    <!-- Comienza a recorrer la ciudad -->
+    <!-- RUTA -->
 
-   
-    <div id="map"></div>
-    <div id="right-panel">
-    <div>
-    <b>Start:</b>
-    <select id="start">
-      <option value="Plaza del carmen, San Angel"> Plaza del Carmen</option>
-     <!-- Corregir dirección: Amargura, Alvaro Obregon, San Ángel TNT, San Ángel, 01000 Ciudad de México, CDMX--> 
-    </select>
-    <br>
-    <b>Waypoints:</b> <br>
-    <i>(Ctrl+Click or Cmd+Click for multiple selection)</i> <br>
-    <select multiple id="waypoints">
-      <option value="Plaza del Carmen, San Angel">Plaza del Carmen</option>
-      <option value="Biblioteca de las Revoluciones, San Angel">Biblioteca de las Revoluciones</option>
-      <option value="Casa del Mayorazgo de Fagoaga, San Angel">Casa del Mayorazgo de Fagoaga</option>
-      <option value="casa del Obispo, San Angel">Casa de Obispo</option>
-      <option value="Parroquia de San Jacinto, San Angel">Parroquia de San Jacinto</option>
-      <option value="Plaza de los cielos, San Angel">Plaza de los Cielos</option>
-      <option value="La Casa Blanca, San Angel">La Casa Blanca</option>
-      <option value="Plaza de los Arcangeles, San Angel">Plaza de los Arcángeles</option>
-      <option value="Jardin del arte, San Angel">Jardín del Arte</option>
-      <option value="Plaza San Jacinto, San Angel">Plaza san Jacinto</option>
-       <option value="Plaza Villa San Jacinto, San Angel">Plaza Villa San Jacinto</option>
-      <option value="Museo Casa del Risco, San Angel">Casa del Risco</option>
-      <option value="Centro Cultural San Angel, San Angel">Centro Cultural San Ángel</option>
-      <option value="Templo del Carmen, San Angel">Templo del Carmen</option>
-    </select>
-    <br>
-    <b>End:</b>
-    <select id="end">
-      <option value="Museo del Carmen, San Angel">Museo del Carmen</option>
-      
-    </select>
-    <br>
-      <input type="submit" id="submit">
+    <div class="space"></div>
+    <div class="offset-s3 col s6 div-planear">
+        <h4 class="orange-text text-accent-1 center ">Ruta col. San Angel</h4>
     </div>
-    <div id="directions-panel"></div>
+    <div class="container map">
+        <div class="space"></div>
+        <div class="row">
+            <div class="col s12 center map">
+                <h5>¡Sigue la ruta!</h5>
+                <!-- <img src="../assets/images/map.png" alt="map"> -->
+            </div>
+        </div>
     </div>
-       
 
-        <!-- Recorridos populares -->
+    <!-- Mapa -->
 
-       
+    <div class="row">
+        <div class="col s12 l6 push-l3">
+            <div id="map"></div>
+        </div>
+    </div>
+    <div class="container orange accent-2">
+        <div class="row">
+            <div class="col s12 l4 push-l2">
+                <b>start</b>
+                <select id="start">
+                    <option value="Plaza del carmen, San Angel">carmen</option>
+                </select>
+                <br>
+            </div>
+            <div class="col s12 l4 push-l2">
+                <b>End:</b>
+                <select id="end">
+                    <option value="Museo del Carmen, San Angel">Museo del Carmen</option>
+                </select>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l2">
+                <b>Waypoints:</b>
+               <select multiple id="waypoints">
+                  <option value="Plaza del Carmen, San Angel">Plaza del Carmen</option>
+                  <option value="Biblioteca de las Revoluciones, San Angel">Biblioteca de las Revoluciones</option>
+                  <option value="Casa del Mayorazgo de Fagoaga, San Angel">Casa del Mayorazgo de Fagoaga</option>
+                  <option value="casa del Obispo, San Angel">Casa de Obispo</option>
+                  <option value="Parroquia de San Jacinto, San Angel">Parroquia de San Jacinto</option>
+                  <option value="Plaza de los cielos, San Angel">Plaza de los Cielos</option>
+                  <option value="La Casa Blanca, San Angel">La Casa Blanca</option>
+                  <option value="Plaza de los Arcangeles, San Angel">Plaza de los Arcángeles</option>
+                  <option value="Jardin del arte, San Angel">Jardín del Arte</option>
+                  <option value="Plaza San Jacinto, San Angel">Plaza san Jacinto</option>
+                   <option value="Plaza Villa San Jacinto, San Angel">Plaza Villa San Jacinto</option>
+                  <option value="Museo Casa del Risco, San Angel">Casa del Risco</option>
+                  <option value="Centro Cultural San Angel, San Angel">Centro Cultural San Ángel</option>
+                  <option value="Templo del Carmen, San Angel">Templo del Carmen</option>
+                </select>
+            </div>
+            <div class="col s12 l4 push-l2">
+                <input type="submit" id="submit">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="directions-panel"></div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Parallax -->
+    <!--  Info card -->
 
-    
+    <div class="container infoCard">
+        <div class="row">
+            <div class="col s12 left">
+                <h5 class="blue-grey-text text-darken-3">Museo del Carmen</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <img src="../assets/images/san-angel1.jpg" width="100%" alt="">
+            </div>
+            <div class="col s6">
+                <img src="../assets/images/san-angel2.jpg" width="100%" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit harum non sequi voluptatem laudantium exercitationem
+                    suscipit, facilis repellendus, perspiciatis enim inventore explicabo atque magnam? Dolore corrupti veritatis
+                    officiis nostrum alias fugiat odit quidem, voluptas odio dolor autem aliquid ut sunt sapiente natus perspiciatis,
+                    distinctio vitae repellat veniam eius eveniet sequi.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <form action="#" class="center">
+                    <p>
+                        <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                        <label for="filled-in-box">He terminado esta estación</label>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <button type='submit' name='btn_login' class='col s6 push-s3 btn orange accent-2'>
+                    <a class="modal-trigger" href="#modal3">Siguiente</a>
+                </button>
+            </div>
+        </div>
+    </div>
 
     <!-- User Modal -->
 
@@ -132,35 +187,37 @@
                     </ul>
                 </div>
             </div>
-
             <div class="row">
-                <label>Colonia</label>
-                <select class="browser-default">
-                    <option value="" disabled selected>Elige una colonia</option>
-                    <option value="1">Roma</option>
-                    <option value="2">Condesa</option>
-                    <option value="3">Centro</option>
-                </select>
+                <div class="col s12 l6">
+                    <label>Duración</label>
+                    <select class="browser-default">
+                        <option value="" disabled selected>Elige la duración</option>
+                        <option value="1">2 hrs</option>
+                        <option value="2">4 hrs</option>
+                        <option value="3">6+</option>
+                    </select>
+                </div>
+                <div class="col s12 l6">
+                    <label>Colonia</label>
+                    <select class="browser-default">
+                        <option value="" disabled selected>Elige una colonia</option>
+                        <option value="1">Roma</option>
+                        <option value="2">Condesa</option>
+                        <option value="3">Centro</option>
+                    </select>
+                </div>
             </div>
-            <div class="col s4 push-s2">
-                <label>Duración</label>
-                <select class="browser-default">
-                    <option value="" disabled selected>Elige la duración</option>
-                    <option value="1">2 hrs</option>
-                    <option value="2">4 hrs</option>
-                    <option value="3">6+</option>
-                </select>
-            </div>
-            <br>
         </div>
+        <br>
         <div class="row">
             <div class="col s10">
                 <button type='submit' name='btn_login' class='col s10 push-s2 btn orange accent-2'>
-                    Iniciar recorrido
+                    <a href="route1.html">Iniciar recorrido</a>
                 </button>
             </div>
         </div>
     </div>
+
 
     <!-- User SideNav -->
 
@@ -177,73 +234,34 @@
                     </div>
                     <div class="col s5"></div>
                 </div>
-                <h5 class="white-text">Nombre de usuario</h5>
+                <h4 class="white-text">Nombre de usuario</h4>
             </div>
         </li>
-        <h6>
+        <h5>
             <i class="tiny material-icons cyan-text text-darken-2">favorite_border</i>
             Puntos : 8989
-        </h6>
+        </h5>
         <li>
             <div class="divider"></div>
         </li>
         <li>
             <a href="home.html">Home</a>
         </li>
-        <button type='submit' name='btn_login' class='col s10 push-s2 btn orange accent-3'>
-            Iniciar recorrido
+        <button type='submit' name='btn_login' class='col s12 btn orange accent-2'>
+            <a class="modal-trigger" href="#modal2"> Nuevo recorrido</a>
         </button>
     </ul>
 
-    <ul id="slide-out" class="side-nav">
-        <li>
-            <div class="user-view">
-                <div class="background">
-                    <img src="../assets/images/gray_suitcase.jpg" class="center" width="160%">
-                </div>
-                <div class="row">
-                    <div class="col s4"></div>
-                    <div class="col s3 ">
-                        <img class="circle" src="../assets/images/userman.png" width="90px" alt="">
-                    </div>
-                    <div class="col s5"></div>
-                </div>
-                <h5 class="white-text">Elena Troya</h5>
-                <h5 class="white-text">elena@troya.com</h5>
-            </div>
-        </li>
-        <p>Puntaje
-            <i class="tiny material-icons cyan-text text-darken-2">star star star star_half star_border</i>
-        </p>
-        <li>
-            <div class="divider"></div>
-        </li>
-        <li>
-            <a href="home.html">Home</a>
-        </li>
-        <li>
-            <a href="friends.html">Amigos</a>
-        </li>
-        <li>
-            <a class="modal-trigger" href="#modal2">Planea tu viaje</a>
-        </li>
-        <a href="profile.html" class="modal-trigger waves-effect deep-purple lighten-3 btn planear">Ver perfil de viajes</a>
-        <br>
-        <a href="#" class="modal-trigger waves-effect  green accent-3 btn planear">¡RECOMPENSAS!</a>
-    </ul>
-
-
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7d6ykQP7zGfpXa4azMcDJnA9Ei2lD6Pk&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7d6ykQP7zGfpXa4azMcDJnA9Ei2lD6Pk&callback=initMap">
     </script>
 
-     <script src="../js/app-mapa.js"></script>
+    <script src="../js/app-mapa.js"></script>
     <script src="../js/login.js"></script>
-    
+
     <script src="../js/app.js"></script>
-   
+
 </body>
 
 </html>

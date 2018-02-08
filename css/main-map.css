@@ -21,20 +21,10 @@
     padding: 0;
   }
   #map {
-    height: 100%;
-    float: left;
-    width: 70%;
-    height: 100%;
+    width: 600px;
+    height: 500px;
   }
-  #right-panel {
-    margin: 20px;
-    border-width: 2px;
-    width: 20%;
-    height: 400px;
-    float: left;
-    text-align: left;
-    padding-top: 0;
-  }
+
   #directions-panel {
     margin-top: 10px;
     background-color: #FFEE77;
