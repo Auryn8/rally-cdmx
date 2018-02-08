@@ -4,7 +4,7 @@ alert("inicia");
     var directionsDisplay = new google.maps.DirectionsRenderer;
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 10,
-      center: {lat:19.433863,  lng:-99.133240}
+      center: {lat: 19.345842, lng: -99.190678}
     });
     directionsDisplay.setMap(map);
   
