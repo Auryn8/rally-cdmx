@@ -4,17 +4,14 @@ body{
     padding: 0;
 }
 
-.container{
-    margin-top:20%;
-}
 /* Color Palette
 
-indigo
-indigo lighten-2
- blue-grey darken-4
- blue-grey darken-3
- orange accent-1
-orange accent-2
+indigo rgb(75, 86, 132)
+indigo lighten-2 rgb(117, 122, 162)
+orange accent-1 rgb(255, 186, 119)
+orange accent-2 rgb(226, 133, 76)
+blue-grey darken-4 rgb(36, 42, 58)
+blue-grey darken-3
 
 */
 
@@ -32,12 +29,22 @@ font-size: 15pts;
 }
     
 .brand-logo > img{
-    width:60px;
+    width:25%;
+    margin: -50px 0 0 -70px;
+}
+
+.capi{
+    font-family: Helvetica;
+    font-weight: 100;
 }
 
 .center{
     margin: auto;
-  }   
+}   
+
+.infoCard{
+    background-color: rgb(228, 229, 240);
+}
 
 .nav-extended {
     margin-bottom: 0px;
@@ -45,11 +52,14 @@ font-size: 15pts;
     -webkit-transition: all 0.5s;
     transition: all 0.5s
     height: 350px;
-    background-color: 
 }
 
 .parallax-container {
-    height: 250px;
+    height: 350px;
+}
+
+.route{
+    height: 200px;
 }
 
 .popu{
@@ -57,12 +67,17 @@ font-size: 15pts;
     box-shadow:0 0 5px 5px #DDDDDD;
 }
 
+.titulo{
+    font-family: Helvetica;
+    font-size: 25pt;
+}
+
 .side-nav{
     text-align: center;
 }
 
 .space{
-    height: 30px;
+    margin: 30px 0;
 }
 
 

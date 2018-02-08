@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Red Social</title>
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header>
+        <nav class="nav-extended blue-grey darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">
+                    <img src="../assets/images/rally-logo.png" alt="">
+                </a>
+                <a href="#" data-activates="slide-out" class="button-collapse show-on-large">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse right">
+                    <ul>
+                        <li>
+                            <input id="last_name" type="text" class="validate" placeholder="search">
+                        </li>
+                        <li>
+                            <i class="small material-icons">search</i>
+                        </li>
+                    </ul>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <input id="last_name" type="text" class="validate" placeholder="search">
+                    </li>
+                    <li>
+                        <i class="small material-icons">search</i>
+                    </li>
+                    <li>
+                        <a class="modal-trigger" href="#modal1">
+                            <img src="../assets/images/user.png" width="50px" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Parallax -->
+
+    <div class="parallax-container route">
+        <div class="parallax">
+            <img src="../assets/images/diegoparalax.jpg" width="300px">
+        </div>
+    </div>
+
+    <!--  Mapa  -->
+
+    <div class="space"></div>
+    <div class="offset-s3 col s6 div-planear">
+        <h4 class="orange-text text-accent-1 center ">Ruta col. San Angel</h4>
+    </div>
+    <div class="container map">
+        <div class="space"></div>
+        <div class="row">
+            <div class="col s12 center map">
+                <h5>¡Sigue la ruta!</h5>
+                <img src="../assets/images/map.png" alt="map">
+            </div>
+        </div>
+    </div>
+
+    <!--  Info card -->
+
+    <div class="container infoCard">
+        <div class="row">
+            <div class="col s12 left">
+                <h5 class="blue-grey-text text-darken-3">Casa estudio Diego Rivera</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6">
+                <img src="../assets/images/diego1.jpg" width="100%" alt="">
+            </div>
+            <div class="col s6">
+                <img src="../assets/images/diego2.jpg" width="100%" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit harum non sequi voluptatem laudantium exercitationem
+                    suscipit, facilis repellendus, perspiciatis enim inventore explicabo atque magnam? Dolore corrupti veritatis
+                    officiis nostrum alias fugiat odit quidem, voluptas odio dolor autem aliquid ut sunt sapiente natus perspiciatis,
+                    distinctio vitae repellat veniam eius eveniet sequi.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <form action="#" class="center">
+                    <p>
+                        <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                        <label for="filled-in-box">He terminado esta estación</label>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <button type='submit' name='btn_login' class='col s6 push-s3 btn orange accent-2'>
+                    <a class="modal-trigger" href="#modal3">Siguiente</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- trivia MODAL -->
+
+    <div id="modal3" class="modal">
+        <div class="row">
+            <div class="col s12 indigo lighten-2 center">
+                <h5 class="white-text"> TRIVIA </h5>
+                <h6 class="white-text">Según el mito de esta pintura, la mujer retratada era:</h6>
+                <img src="../assets/images/diego3.jpg" alt="" width="200px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <form action="#" class="center">
+                    <p>
+                        <input type="checkbox" id="test5" />
+                        <label for="test5">La amante de Diego</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="test4" />
+                        <label for="test4">Una amiga de la infancia</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="test4" />
+                        <label for="test4">Una hermana</label>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <button type='submit' name='btn_login' class='col s6 push-s3 btn orange accent-2'>
+                    <a class="modal-trigger" href="#modal4">Enviar</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- GREAT JOB! MODAL -->
+
+    <div id="modal4" class="modal">
+        <div class="row">
+            <div class="col s12 green center">
+                <h5 class="white-text">¡EXCELENTE!</h5>
+                <img src="../assets/images/greencheck.png" alt="" width="200px">
+                <h5 class="white-text">Ganaste: 100 pts</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 center">
+                <button type='submit' name='btn_login' class='col s6 push-s3 btn teal lighten-2'>
+                    <a href="route2.html">continuar</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- User MODAL -->
+
+    <div id="modal1" class="modal">
+        <i class="tiny material-icons right">close</i>
+        <p>
+            <img src="../assets/images/user.png" width="90px" alt="">
+        </p>
+        <h3>Nombre de Usuario</h3>
+        <h4>
+            <i class="small material-icons cyan-text text-darken-2">favorite_border</i>
+            Puntos : 8989
+        </h4>
+    </div>
+
+    <!-- Comienza una ruta MODAL -->
+
+    <div id="modal2" class="modal">
+        <div class="row">
+            <div class="offset-s3 col s6">
+                <ul>
+                    <li>
+                        <h5 class="blue-grey-text text-darken-4 center">¡Comienza a recorrer la ciudad!</h5>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <label>Colonia</label>
+            <select class="browser-default">
+                <option value="" disabled selected>Elige una colonia</option>
+                <option value="1">Roma</option>
+                <option value="2">Condesa</option>
+                <option value="3">Centro</option>
+            </select>
+        </div>
+        <div class="col s4 push-s2">
+            <label>Duración</label>
+            <select class="browser-default">
+                <option value="" disabled selected>Elige la duración</option>
+                <option value="1">2 hrs</option>
+                <option value="2">4 hrs</option>
+                <option value="3">6+</option>
+            </select>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s10">
+                <button type='submit' name='btn_login' class='col s10 push-s2 btn orange accent-2'>
+                    <a href="route1.html">Iniciar recorrido</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- User SideNav -->
+
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="../assets/images/soumaya.jpg" class="center" width="160%">
+                </div>
+                <div class="row">
+                    <div class="col s4"></div>
+                    <div class="col s3 ">
+                        <img class="circle" src="../assets/images/user.png" width="90px" alt="">
+                    </div>
+                    <div class="col s5"></div>
+                </div>
+                <h4 class="white-text">Nombre de usuario</h4>
+            </div>
+        </li>
+        <h5>
+            <i class="tiny material-icons cyan-text text-darken-2">favorite_border</i>
+            Puntos : 8989
+        </h5>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+        <button type='submit' name='btn_login' class='col s10 push-s2 btn orange accent-3'>
+            <a class="modal-trigger" href="#modal2"> Nuevo recorrido</a>
+        </button>
+    </ul>
+
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="../assets/images/gray_suitcase.jpg" class="center" width="160%">
+                </div>
+                <div class="row">
+                    <div class="col s4"></div>
+                    <div class="col s3 ">
+                        <img class="circle" src="../assets/images/userman.png" width="90px" alt="">
+                    </div>
+                    <div class="col s5"></div>
+                </div>
+                <h5 class="white-text">Elena Troya</h5>
+                <h5 class="white-text">elena@troya.com</h5>
+            </div>
+        </li>
+        <p>Puntaje
+            <i class="tiny material-icons cyan-text text-darken-2">star star star star_half star_border</i>
+        </p>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+        <li>
+            <a href="friends.html">Amigos</a>
+        </li>
+        <li>
+            <a class="modal-trigger" href="#modal2">Planea tu viaje</a>
+        </li>
+        <a href="profile.html" class="modal-trigger waves-effect deep-purple lighten-3 btn planear">Ver perfil de viajes</a>
+        <br>
+        <a href="#" class="modal-trigger waves-effect  green accent-3 btn planear">¡RECOMPENSAS!</a>
+    </ul>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
