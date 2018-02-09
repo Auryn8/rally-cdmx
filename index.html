@@ -11,74 +11,81 @@
 </head>
 
 <body>
-  <div class="row">
-    <div class="col s8 push-s2">
-      <main style="background-color: rgba(224, 219, 211, 0.7); border-radius: 15px;">
-        <center>
-          <img src="assets/images/rally-logo.png" alt="" width="20%">
+  <div class="row1  "></div>
+  <div class="container">
+    <div class="row">
+      <div class="transparente signin-box z-depth-1 col s12 l6 push-l3 " style="display: inline-block; padding: 32px 48px 0px 48px;">
 
-
-          <div class="container">
-            <div class="signin-box z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid rgb(231, 224, 224);">
-
-              <form class="col s12" method="post">
-                <div class='row'>
-                  <div class='col s12'>
-                    <p>Descubre la ciudad más grande del mundo</p>
-                  </div>
-                </div>
-
-                <div class='row'>
-                  <ul class="collapsible" data-collapsible="accordion">
-                    <li>
-                      <div class="collapsible-header">
-                        <button type='submit' name='btn_login' class='col s12 btn'>
-                          <a href="views/home.html" style='text-decoration:none;color:rgb(255, 255, 255);'>Sign In</a>
-                        </button>
-                        <span class="badge">1</span>
-                      </div>
-                      <div class="collapsible-body">
-                          <div class='input-field col s12'>
-                              <input class='validate' type='email' name='email' id='email' />
-                              <label for='email'>Tu email</label>
-                            </div>
-                            <button type='submit' name='btn_login' class='col s12 btn'>
-                                <a href="views/home.html" style='text-decoration:none;color:rgb(255, 255, 255);'>Sign In</a>
-                              </button>
-                      </div>
-                    </li>
-                  </ul>
-
-                </div>
-
-                <div class='row'>
-                  <label style='float: right;'>
-                    <button type='submit' name='btn_login' class='col s12 btn'>
-                      <a href="views/home.html" style='text-decoration:none;color:rgb(255, 255, 255);'>Sign In</a>
-                    </button>
-                  </label>
-                </div>
-
-                <br />
-                <div class='row'>
-                  <button type='submit' name='btn_login' class='col s12 btn'>
-                    <a href="views/home.html" style='text-decoration:none;color:rgb(255, 255, 255);'>Sign up</a>
-                  </button>
-                </div>
-              </form>
+        <form class="col s12" method="post">
+          <div class='row'>
+            <div class='col s12'>
+              <ul>
+                <li class="center">
+                  <img src="assets/images/rally-logo.png" alt="" width="30%">
+                </li>
+                <li class="center">
+                  <p class="grey-text text-lighten-1">Descubre la ciudad más grande del mundo</p>
+                </li>
+              </ul>
             </div>
           </div>
-          <a href="#!" class='blueish'>Sign up</a>
-        </center>
 
-      </main>
+          <div class='row'>
+            <div class="col s12">
+              <button  name='btn_login' class='col s12 btn blue darken-4'>
+                Iniciar sesión con Google
+              </button>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class="col s6 push-s4 ">
+              <p class="grey-text text-darken-1">O bien</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">correo electrónico</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Nombre</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Contraseña</label>
+            </div>
+            <div class="col s12">
+              <button id="buttonGoogle" name='btn_login' class='col s12 btn indigo lighten-2'>
+                Acceder con Google
+              </button>
+            </div>
+          </div>
+          <br/>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="transparente signin-box z-depth-1 col s12 l6 push-l3" style="display: inline-block; padding: 32px 48px 0px 48px;">
+        <div class='row'>
+          <p class="grey-text text-darken-1">¿Tienes una cuenta?
+            <a href="views/home.html">Iniciar sesión</a>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
-
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-  <script src=""></script>
+  <script src="js/login.js"></script>
+  
 </body>
 
 </html>

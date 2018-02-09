@@ -1,45 +1,48 @@
  body { 
-      background-image: url(../assets/images/soumaya.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      min-height: 100vh;
-      flex-direction: column;
-      font-family: sans-serif; 
-    }
-
-.blueish{
-  color: #1e88e5;
+    background-image: url(../assets/images/sunsetpink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif; 
 }
+
+
+/* Color Palette
+
+indigo rgb(75, 86, 132)
+indigo lighten-2 rgb(117, 122, 162)
+orange accent-1 rgb(255, 186, 119)
+orange accent-2 rgb(226, 133, 76)
+blue-grey darken-4 rgb(36, 42, 58)
+blue-grey darken-3
+
+*/
+
+
+.transparente{
+  background-color:rgba(36, 42, 58, 0.9);
+  border: none;
+  border-radius: 50px 10px;
+}
+
+button > a {
+  color: white;
+}
+
+button{
+  font-size: 9pt;
+}
+
+.center{
+  margin: auto;
+}   
   
-  
-main {
-  flex: 1 0 auto;
+.row1{
+  height: 30px;
 }
 
-h1 {
-  color: #F38035;
-  font-weight: bolder;
-  font-style: bold;
-  font-size: 20pts;
-}
-
-h5 {
-  font-weight: bolder;
-  font-style: bold;
-  font-size: 20pts;
-  color: #F38035;
-}
-
-a {
-   color: #1e88e5;
-   font-size: 1.5rem;
-   font-weight: bold;
-}
-
-.btn-large {
-  background-color: #F38035;
-  font-weight: bolder;
-  font-style: bold;
-  font-size: 20pts;
-}

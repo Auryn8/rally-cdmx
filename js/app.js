@@ -6,8 +6,10 @@ function loadPage() {
   $(".button-collapse").sideNav();
   $('.tap-target').tapTarget('open');
   $('.tap-target').tapTarget('close');
+  $('.parallax').parallax();
   $("#form").submit(addComment);
   $commentInput.keyup(validateComment);
+ 
 }
 
 function validateComment () {
@@ -57,5 +59,20 @@ function paintCommentsInHtml (comment) {
   $("#publish-comments").prepend($newComment);
   
 }
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
 
   $(document).ready(loadPage);
